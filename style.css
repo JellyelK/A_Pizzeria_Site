@@ -1,0 +1,194 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#contate-me{
+    margin-left: 30px;
+    border-radius: 30px;
+    border: transparent;
+    padding: 10px 20px;
+}
+nav{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+nav h3{
+    font-family: 'Lobster', sans-serif;
+}
+nav ul{
+    padding: 0;
+    margin: auto 20px;
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin-top: 5px;
+    padding: 0;
+    margin-left: 20px;
+}
+#painel{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+#painel h2{
+    font-family: 'Lobster', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+}
+#background_1{
+    background-color: #fd0a60;
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    display: flex;
+
+}
+#background_1 img{
+    margin: 0;
+    width: 30vw;
+}
+.container{
+    width: 33.3%;
+    text-align: center;
+}
+#promo h2{
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    margin-left: 2%;
+}
+#promo p{
+    border-bottom: 1px solid white;
+}
+#promo{
+    margin-top: 25%;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+#promo p:hover{
+    transform: translateY(-3px);
+}
+#promo h2:hover{
+    transform: translateY(-3px);
+}
+#delivery{
+    margin: 35% 5%;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+#delivery button{
+    font-size: 1.5rem;
+    padding: 5px 30px;
+    border-radius: 30px;
+    border: transparent;
+    background-color: #00b142;
+    color: white;
+    text-shadow: 0.5px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+#delivery button:hover{
+    transform: translateY(3px);
+}
+#produtos ul{
+    display: flex;
+}
+#produtos ul li{
+    list-style: none;
+    margin-left: 10px;
+    background-color: #fd0a60;
+    padding: 10px 15px;
+    border-radius: 10px 10px 0 0;
+}
+#cardapio h2{
+    margin-left: 25px;
+    margin-right: 25px;
+    font-weight: 500;
+    font-size: 2.5rem;
+    font-family: 'Bebas Neue', sans-serif;
+    border-bottom: 1px solid gray;
+}
+#produtos a{
+    color: white;
+    font-family: 'Lobster', sans-serif;
+    text-decoration: none;
+}
+#produtos ul li:hover{
+    background-color: #c0c0c0;
+    transform: translateY(-3px);
+}
+#pizzas{
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+}
+#pizzas p{
+    /* background-color: #33b74e; */
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+}
+#pizzas{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 390px);
+    grid-template-rows: repeat(5, 410px);
+    row-gap: 10px;
+    column-gap: 15px;
+}
+.item{
+    background-color: #191919;
+    border-radius: 10px;
+    color: white;
+}
+.item p, h2{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.3rem;
+}
+.item h2{
+    font-weight: 500;
+}
+.image_div{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /* background-color: #00b142; */
+    margin-left: 18%;
+    width: 65%;
+    height: 60%;
+    background-image: url(https://sgnh.com.br/wp-content/uploads/2021/07/pizza_frango.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+#frango{
+    background-image: url(img/frango.png);
+}
+#catupiry{
+    background-image: url(img/Frango\ catupiry.png);
+}
+#frango_especial{
+    background-image: url(img/Frango\ especial.png);
+}
+#mussarela{
+    background-image: url(img/Mussarela.png);
+}
+#marguerita{
+    background-image: url(img/Marguerita.png);
+}
