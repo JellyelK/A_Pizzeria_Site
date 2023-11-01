@@ -29,11 +29,30 @@ body{
     font-weight: 500;
     line-height: normal;
 }
+.page1_social{
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+}
+#page1_instagram{
+    background-image: url(img/instagram.png);
+}
+#page1_facebook{
+    background-image: url(img/facebook.png);
+}
+#ajustes{
+    display: grid;
+    grid-template-columns: repeat(2, 30px);
+    column-gap: 10px;
+    color: black;
+}
 #balao{
     display: none;
-    position: absolute;
+    position: relative;
+    width: 300px;
+    border-radius: 10px;
     top: 30px;
-    right: 10px;
+    left: 20%;
     background: #fff;
     padding: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
