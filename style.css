@@ -201,15 +201,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* #foto4{
-    width: 280px;
-    height: 450px;
-    background: url(img/Sobradinho\ 3.png);
-    background-size: cover;
-    position: relative;
-    top: -159%;
-    left: 190%
-} */
 
 /* Page 3 */
 #cardapio{
@@ -224,7 +215,7 @@ body{
     width: 100%;
     height: 100%;
     background: url(img/TERÇA\ DA\ PROMOÇÃO\ \(2\).png);
-    background-size: contain;
+    background-size:cover;
     background-repeat: no-repeat;
 }
 #produtos{
@@ -261,6 +252,11 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.quadro a{
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 #produtos h2{
     margin-top: 10%;
