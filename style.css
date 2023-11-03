@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,300;1,400;1,500&display=swap');
 
+/* For Desktops */
 body{
     padding: 0;
     margin: 0;
@@ -29,35 +30,9 @@ body{
     font-weight: 500;
     line-height: normal;
 }
-/* .page1_social{
-    width: 35px;
-    height: 35px;
-    background-size: cover;
+#page1 ul li a:hover{
+    border-bottom: 2px solid #FD680C;
 }
-#page1_instagram{
-    background-image: url(img/instagram.png);
-}
-#page1_facebook{
-    background-image: url(img/facebook.png);
-}
-#ajustes{
-    display: grid;
-    grid-template-columns: repeat(2, 40px);
-    column-gap: 10px;
-    color: black;
-    text-align: center;
-}
-#balao{
-    display: none;
-    position: relative;
-    width: 300px;
-    border-radius: 10px;
-    top: 30px;
-    left: 20%;
-    background: #fff;
-    padding: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-} */
 #centro{
     display: grid;
     margin-top: 70px;
@@ -118,7 +93,7 @@ body{
 
 }
 #bottom_line{
-    width: 100%;
+    width: 100vw;
     height: 71px;
     background-color: #FD680C;
     margin-bottom: 0;
@@ -376,4 +351,145 @@ body{
     height: 35px;
     background: url(img/whatsapp.png);
     background-size: cover;
+}
+
+/* media screen for smartphones */
+@media screen and (max-width:767px){
+   #page1{
+    overflow-x: hidden;
+   }
+   #page2{
+    overflow-x: hidden;
+   }
+   #cardapio{
+    overflow-x: hidden;
+   }
+    #page1 nav{
+        display: none;
+    }
+    #page1{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    #centro{
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 60% 50vw;
+        row-gap: 10%;
+        justify-content: center;
+        align-items: center;
+    }
+    #bottom_line{
+        display: none;
+    }
+    #apresentacao{
+        margin: 0 5%;
+        width:90%;
+        height: 80%;
+        text-align:center;
+    }
+    #apresentacao h2{
+        margin:10% 0 0 0;
+        width: 100%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #apresentacao h1{
+        margin:10% 0;
+        width: 100%;
+        font-size: 4rem;
+        text-align: center;
+    }
+    #apresentacao button{
+        margin:0;
+    }
+    #foto{
+        width: 100%;
+        height: 100%;
+        background-image: url(https://i.pinimg.com/originals/45/eb/98/45eb98c8637d591a1bde451eb1bce941.png);
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+    }
+
+    /* Page 2 */
+    #page2{
+        height:85vh;
+        width: 100vw;
+        justify-content: center;
+    }
+    #divisoria{
+        width: 100%;
+    }
+    #divisoria button{
+        margin: 15% 44.5%;
+    }
+    #delivery{
+        margin-left: 26%;
+        text-align: justify;
+        justify-content: center;
+        width: 70%;
+    }
+    #delivery h2{
+        margin: 0 auto;
+    }
+    #delivery p{
+        margin-left: 5%;
+        width: 90%;
+        text-align: justify;
+    }
+    #fundo_page2{
+        display: none;
+    }
+    #foto2{
+        display: none;
+    }
+    #foto3{
+        display: none;
+    }
+    #foto4{
+        display: none;
+    }
+
+    /* Page3 */
+    #cardapio{
+        height:75vh;
+        width: 100vw;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    #img_promocao{
+        margin: 0;
+        width: 100vw;
+        height: 70vh;
+        background-size: cover;
+        background-position: center;
+    }
+    #produtos{
+        width: 100%;
+        height: 90vh;
+        background-color: #FD680C;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(4,150px);
+    }
+    #title_cardapio{
+        width: 100%;
+        height: 50%;
+    }
+    #title_cardapio h2{
+        margin: 0;
+    }
+    #grid{
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 180px);
+        grid-template-rows: auto;
+        justify-content: center;
+    }
 }
