@@ -206,6 +206,9 @@ body{
     grid-template-columns: 40% 60%;
     grid-template-rows: 100%;
 }
+#terca_promocao{
+    display: none;
+}
 #img_promocao{
     margin-left: 20%;
     width: 80%;
@@ -418,78 +421,106 @@ body{
 
     /* Page 2 */
     #page2{
-        height:85vh;
         width: 100vw;
+        height: 100vh;
+    }
+    #centro2{
+        display: block;
+        width: 100%;
         justify-content: center;
+        align-items: center;
     }
     #divisoria{
-        width: 100%;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     #divisoria button{
-        margin: 15% 44.5%;
+        margin: 0;
     }
     #delivery{
-        margin-left: 26%;
         text-align: justify;
         justify-content: center;
-        width: 70%;
+        margin: 18% 0;
     }
     #delivery h2{
         margin: 0 auto;
     }
-    #delivery p{
-        margin-left: 5%;
-        width: 90%;
-        text-align: justify;
-    }
-    #fundo_page2{
-        display: none;
-    }
-    #foto2{
-        display: none;
-    }
-    #foto3{
-        display: none;
-    }
-    #foto4{
+    #fundo_page2, #foto2, #foto3, #foto4{
         display: none;
     }
 
     /* Page3 */
     #cardapio{
-        height:75vh;
         width: 100vw;
+        height: 135vh;
         justify-content: center;
-        display: grid;
-        grid-template-columns: 100%;
+        font-family: Montserrat;
     }
     #img_promocao{
-        margin: 0;
-        width: 100vw;
-        height: 70vh;
-        background-size: cover;
-        background-position: center;
+        display: none;
+    }
+    #terca_promocao{
+        display: block;
     }
     #produtos{
-        width: 100%;
-        height: 90vh;
-        background-color: #FD680C;
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: repeat(4,150px);
+        grid-template-rows: 10vh 35vh 85vh;
+        width: 100vw;
+        height: 100%;
+        /* justify-content: center;
+        align-items: center; */
     }
     #title_cardapio{
         width: 100%;
-        height: 50%;
+        text-align: center;
     }
     #title_cardapio h2{
         margin: 0;
     }
+    #terca_promocao{
+        text-align: center;
+    }
+    #terca_promocao h3{
+        font-family: Lobster;
+        font-size: 2.5em;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+    #terca_promocao p{
+        font-size: 1.8em;
+        font-weight: 400;
+        margin-top: 3%;
+    }
     #grid{
+        margin: 0 3.5vw;
+        width: 100%;
+        height: 100%;
+        grid-template-columns: repeat(2, 45vw);
+        grid-template-rows: auto;
+        row-gap:0;
+        column-gap: 3vw;
+    }
+    .quadro{
+        width: auto;
+        margin: 0;
+    }
+    .quadro a{
+        overflow: hidden;
+    }
+
+
+
+
+
+
+    /* #grid{
         margin: 0;
         display: grid;
         grid-template-columns: repeat(2, 180px);
         grid-template-rows: auto;
         justify-content: center;
-    }
+    } */
 }
