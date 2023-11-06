@@ -204,20 +204,59 @@ body{
     height: 85vh;
     background-color: #FD680C;
     display: grid;
-    grid-template-columns: 40% 60%;
-    grid-template-rows: 100%;
+    grid-template-columns: 40% 55%;
+    grid-template-rows: 1fr;
 }
 #terca_promocao{
     display: none;
 }
 #img_promocao{
-    margin-left: 20%;
+    margin: 10% 0 0 0;
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(img/Frango\ especial.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* margin-left: 20%;
     width: 80%;
     height: 100%;
     background: url(img/TERÇA\ DA\ PROMOÇÃO\ \(2\).png);
     background-size:cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; */
+}
+#img_promocao h1, h2, h3, h4{
+    margin: 0 auto;
+    flex-shrink: 0;
+    color: #FFDE59;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Lobster;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#img_promocao h1{
+    margin: 0 auto;
+    font-size: 68px;
+}
+#img_promocao h2{
+    margin: 0 auto;
+    font-size: 48px;
+}
+#img_promocao h3{
+    margin: 5% 5% 0 0;
+    font-size: 38px;
+    background-color: #FD680C;
+}
+#img_promocao h4{
+    margin: 0 auto;
+    font-size: 28px;
 }
 #produtos{
     width: 100%;
@@ -303,6 +342,9 @@ body{
     margin-left: 20%;
 }
 /* Footer */
+#footer{
+    margin: 2%;
+}
 #texto_footer{
     color: #FFF;
     font-family: Montserrat;
@@ -310,6 +352,9 @@ body{
     line-height: normal;
 }
 #texto_footer h3{
+    font-family: Montserrat;
+    color: white;
+    text-align: left;
     font-size: 26px;
     margin-bottom: 5px;
 }
@@ -379,7 +424,7 @@ body{
     #centro{
         margin: 0;
         width: 100%;
-        height: 90vh;
+        height: 85vh;
         display: block;
         /* justify-content: center;
         align-items: center; */
@@ -398,9 +443,9 @@ body{
         display: block;
     }
     #apresentacao{
-        margin: 0 5%;
-        width:90%;
-        height: 80%;
+        margin: 15% 5% 0 5%;
+        width: 90%;
+        height: 75%;
         text-align:center;
     }
     #apresentacao h2{
@@ -456,6 +501,8 @@ body{
         width: 100vw;
         height: 100%;
         justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr;
         font-family: Montserrat;
     }
     #img_promocao{
@@ -466,14 +513,13 @@ body{
     }
     #produtos{
         display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 10vh 50vh 85vh;
-        width: 100vw;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10vh 38vh 85vh;
+        width: 100%;
         height: 160vh;
-        /* justify-content: center;
-        align-items: center; */
     }
     #title_cardapio{
+        margin: 0;
         width: 100%;
         text-align: center;
     }
@@ -495,16 +541,15 @@ body{
         margin-top: 3%;
     }
     #obs p{
-        margin-top: 0;
+        margin: 0;
     }
     #grid{
-        margin: 0 3.5%;
+        margin: 0 4.2%;
         width: 100%;
         height: 100%;
         grid-template-columns: repeat(2, 45vw);
         grid-template-rows: auto;
         row-gap:0;
-        column-gap: 3vw;
     }
     .quadro{
         text-align: center;
