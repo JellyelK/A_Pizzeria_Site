@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,300;1,400;1,500&display=swap');
+
+body{
+    background-color: #191919;
+    color: #FD680C;
+}
+#titulo{
+    color: white;
+    text-align: center;
+    font-family: Lobster;
+    font-size: 28px;
+    margin-top: 10%;
+}
+#precos ul{
+    margin: 0;
+    list-style: none;
+}
+#precos ul li{
+    color: #FD680C;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0;
+}
+#precos ul p{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5px;
+}
