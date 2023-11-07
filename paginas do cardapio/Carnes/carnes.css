@@ -1,1 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,300;1,400;1,500&display=swap');
+
+body{
+    background-color: #191919;
+}
+section h2{
+    text-align: center;
+    font-family: Lobster;
+    color: white;
+    font-weight: 100;
+    font-size: 2.5em;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Montserrat;
+}
+.produto{
+    margin-right: 5%;
+}
+.item div h3{
+    color: #FD680C;
+    font-weight: 800;
+    margin: 5% 0 0 0;
+    font-size: 1em;
+}
+.ingredientes{
+    color: white;
+    font-size: 0.9em;
+    margin: 0;
+}
+.price{ 
+    font-size: 1em;
+    font-weight: 800;
+    color: #FD680C;
+}

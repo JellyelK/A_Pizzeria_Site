@@ -131,6 +131,7 @@ body{
     text-decoration: none;
 }
 #page2{
+    margin:auto 0;
     width: 100%;
     background-color: white;
     margin: 0;
