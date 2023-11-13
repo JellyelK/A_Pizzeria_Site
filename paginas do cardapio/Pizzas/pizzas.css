@@ -51,7 +51,47 @@ body{
     border-bottom: 1px solid #FD680C;
     margin:10px 7.5%;
 }
-#tamanhos_precos h4{
+h4{
+    color: #FD680C;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+    line-height: normal;
     font-size: 28px;
-    margin:10px 0;
+    margin:20px 0;
+}
+
+@media screen and (min-width: 1200px) {
+
+    #tamanhos_precos{
+        background-color:#1d1d1d;
+        border-radius: 20px;
+        width: 100%;
+        color: #FD680C;
+        font-family: Montserrat;
+        font-size: 22px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 5%;
+        display: flex;
+    }
+    #tamanhos_precos p{
+        width: 100%;
+        margin:10px 0;
+        border-bottom: none;
+    }
+    h4{
+        color: #FD680C;
+        font-family: Montserrat;
+        font-size: 22px;
+        font-style: italic;
+        font-weight: 700;
+        text-align: center;
+        line-height: normal;
+        font-size: 28px;
+        margin:20px 0;
+    }
 }
